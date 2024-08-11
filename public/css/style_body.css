@@ -1,0 +1,163 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.hero {
+    background-color: #007bff;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    background-color: #007bff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.services {
+    background-color: #001f3f; /* Azul marino */
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.service-item {
+    margin-bottom: 30px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.service-item:hover {
+    transform: scale(1.05);
+}
+
+.service-item h3 {
+    margin-top: 0;
+    font-size: 1.5em;
+    color: #ffdc00; /* Amarillo */
+}
+
+.service-item p {
+    font-size: 1.1em;
+    color: #7fdbff; /* Azul claro */
+}
+
+.dynamic-boxes {
+    background-color: #f4f4f4;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.dynamic-boxes .container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.box {
+    width: 30%;
+    padding: 20px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.box:hover {
+    background-color: #0056b3;
+}
+
+.footer {
+    background-color: #333; /* Gris oscuro */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-nav a:hover {
+    text-decoration: underline;
+}
+
+.social-media {
+    margin-top: 10px;
+}
+
+.social-media a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.social-media img {
+    width: 24px;
+    height: 24px;
+}
+
+.presentation-windows {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.presentation-item {
+    width: 30%;
+    text-align: center;
+}
+
+.presentation-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.search-section {
+    text-align: center;
+}
+
+.search-section input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.search-suggestions {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+.search-suggestions li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.search-suggestions li:hover {
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
